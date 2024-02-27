@@ -14,6 +14,22 @@ $(call inherit-product, device/motorola/cypfq/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Matrixx
+MATRIXX_MAINTAINER := FPSensor
+MATRIXX_CHIPSET := SM4350
+MATRIXX_BATTERY := 5000mah
+MATRIXX_DISPLAY := 1080x2400
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_EXCLUDES_VIA := true
+TARGET_ENABLE_BLUR := true
+
+# Gapps
+WITH_GMS := true
+TARGET_GAPPS_ARCH := arm64
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
+
 PRODUCT_NAME := lineage_cypfq
 PRODUCT_DEVICE := cypfq
 PRODUCT_MANUFACTURER := motorola
