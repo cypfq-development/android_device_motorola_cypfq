@@ -92,7 +92,6 @@ blocklist rcutorture
 # Motorola platform module block list
 #
 blocklist utags
-blocklist watchdogtest
 blocklist moto_f_usbnet
 # Copyright (c) 2019-2020, The Linux Foundation. All rights reserved.
 #
@@ -100,7 +99,7 @@ blocklist moto_f_usbnet
 #
 
 blocklist fpsensor_spi_tee
-blocklist goodix_fod_mmi
+blocklist ili9882_mmi
 blocklist fpc1020_mmi
 blocklist mmi_smbcharger_iio
 blocklist qpnp_adaptive_charge
