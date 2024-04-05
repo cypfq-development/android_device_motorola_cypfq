@@ -473,4 +473,4 @@ vendor/etc/thermal-engine.conf
 
 # Touch firmware
 vendor/firmware/ILITEK_FW_CSOT_7807S
-vendor/firmware/ILITEK_FW_CSOT_7807S
+vendor/firmware/ILITEK_FW_TM_7807S
