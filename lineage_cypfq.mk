@@ -11,11 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from penang device
 $(call inherit-product, device/motorola/cypfq/device.mk)
 
-# Inherit some common StatiX stuff.
-$(call inherit-product, vendor/statix/config/common.mk)
-$(call inherit-product, vendor/statix/config/gsm.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := statix_cypfq
+PRODUCT_NAME := lineage_cypfq
 PRODUCT_DEVICE := cypfq
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
