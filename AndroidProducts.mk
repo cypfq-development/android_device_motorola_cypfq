@@ -5,7 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/statix_cypfq.mk
+    $(LOCAL_DIR)/lineage_cypfq.mk
 
 COMMON_LUNCH_CHOICES := \
-    statix_cypfq-userdebug
+    lineage_cypfq-user \
+    lineage_cypfq-userdebug \
+    lineage_cypfq-eng

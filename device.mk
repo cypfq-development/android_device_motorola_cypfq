@@ -34,7 +34,7 @@ PRODUCT_PACKAGES += \
     SystemUIResCypfq
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-statix
+    $(LOCAL_PATH)/overlay-lineage
 
 # Audio
 PRODUCT_COPY_FILES += \
